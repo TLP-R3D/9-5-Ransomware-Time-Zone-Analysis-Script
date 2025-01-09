@@ -1,6 +1,6 @@
 # 9-5-Ransomware-Time-Zone-Analysis-Script
 
-A Python project to detect potential operating hours of ransomware groups by analyzing their leak-site post timestamps. It fetches data from Ransomware.live, stores it in a local SQLite database, and calculates a “9–5 Match Score” for each group—indicating how often they post within local 9 AM to 5 PM. By testing every UTC offset (–12 to +12), the script identifies the best-fitting time zone for each group, then lists likely countries/regions for that offset. Although this is a heuristic approach, it can offer strong clues when combined with other threat intelligence.
+A Python project to detect potential operating hours of ransomware groups by analyzing their leak-site post times. It fetches data from Ransomware.live, stores it in a local SQLite database, and calculates a “9–5 Match Score” for each group—indicating how often they post within local 9 AM to 5 PM. By testing every UTC offset (–12 to +12), the script identifies the best-fitting time zone for each group, then lists likely countries/regions for that offset. Although this is a heuristic approach, it can offer strong clues when combined with other threat intelligence.
 
 Features:
 
